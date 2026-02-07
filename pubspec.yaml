@@ -2,10 +2,8 @@ name: cryptosim_move_upgraded
 description: Multi-symbol crypto trading simulator with indicators and persistence.
 publish_to: 'none'
 version: 0.2.0
-
 environment:
   sdk: ">=2.18.0 <4.0.0"
-
 dependencies:
   flutter:
     sdk: flutter
@@ -13,10 +11,8 @@ dependencies:
   shared_preferences: ^2.0.0
   provider: ^6.0.0
   fl_chart: ^0.60.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 flutter:
   uses-material-design: true
